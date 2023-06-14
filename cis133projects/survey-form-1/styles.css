@@ -1,0 +1,56 @@
+/*  Name: Connor Sheridan
+    Date: 6/13/23
+    Class: CIS133DA
+    Practice/Project: Project 1: Survery Form
+*/
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma;
+    font-size: 16px;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 1rem 0;
+    border-bottom: none;
+  }
+  
+  label {
+    display: block;
+    margin: 0 0;
+  }
+  
+  input[type="text"], input[type="email"], input[type="number"], select, textarea {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 50%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 200px;
+    color: white;
+  }
