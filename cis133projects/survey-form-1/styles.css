@@ -35,7 +35,10 @@ body {
   label {
     display: block;
     margin: 0 0;
-    cursor: pointer;
+  }
+
+  input[type="radio"], input[type="checkbox"], label {
+    cursor: text;
   }
 
   input[type="text"], textarea {
