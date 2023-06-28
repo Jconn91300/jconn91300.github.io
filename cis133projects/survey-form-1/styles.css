@@ -35,6 +35,11 @@ body {
   label {
     display: block;
     margin: 0 0;
+    cursor: pointer;
+  }
+
+  text, textarea {
+    cursor: text;
   }
   
   input[type="text"], input[type="email"], input[type="number"], select, textarea {
