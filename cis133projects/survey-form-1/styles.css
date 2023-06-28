@@ -38,7 +38,7 @@ body {
     cursor: pointer;
   }
 
-  text, textarea {
+  input[type="text"], textarea {
     cursor: text;
   }
   
