@@ -1,0 +1,24 @@
+/*  Name: Connor Sheridan
+    Date: 7/5/23
+    Class: CIS133DA
+    Practice/Project: Project 2: Tribute Page
+*/
+p {
+    max-width: 600px;
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+    width: 90%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: #f9a790;
+    color: black;
+    padding: 15px;
+}
