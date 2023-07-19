@@ -17,18 +17,18 @@
     <form id="survey-form">
       <div class="info">
         <fieldset>
-          <label for="name" id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required /></label>
+          <label class="question" for="name" id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required /></label>
         </fieldset>
         <fieldset>
-          <label for="email" id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required /></label>
+          <label class="question" for="email" id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required /></label>
         </fieldset>
         <fieldset>
-          <label for="number" id="number-label">Age (optional) <input id="number" type="number" min="13" max="120" placeholder="Age" /></label>
+          <label class="question" for="number" id="number-label">Age (optional) <input id="number" type="number" min="13" max="120" placeholder="Age" /></label>
         </fieldset>
       </div>
       <div class="survey-answers">
         <fieldset>
-          <label for="dropdown">Which option best describes your favorite College Team?
+          <label class="question" for="dropdown">Which option best describes your favorite College Team?
             <select id="dropdown" name="dropdown" required>
               <option value="">(Select favorite team)</option>
               <option value="1">Clemson</option>
@@ -40,12 +40,12 @@
           </label>
         </fieldset>
         <fieldset>
-          <label>Are you interested in College Football?</label>
+          <label class="question">Are you interested in College Football?</label>
           <label for="yes"><input id="yes" type="radio" name="interested" value="1" /> Yes</label>
           <label for="no"><input id="no" type="radio" name="interested" value="2" /> No</label>
         </fieldset>
         <fieldset>
-          <label>What College Sports are you interested in? (Check all that apply)</label>
+          <label class="question">What College Sports are you interested in? (Check all that apply)</label>
           <label for="football"><input id="football" type="checkbox" name="sports" value="1" /> Football</label>
           <label for="basketball"><input id="basketball" type="checkbox" name="sports" value="2" /> Basketball</label>
           <label for="baseball"><input id="baseball" type="checkbox" name="sports" value="3" /> Baseball</label>
@@ -54,7 +54,7 @@
       </div>
       <div class="suggestions">
         <fieldset>
-          <label for="bio">Any comments or suggestions?:
+          <label class="question" for="bio">Any comments or suggestions?:
             <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
           </label>
         </fieldset>
