@@ -52,6 +52,8 @@ header{
     justify-content: center;
     justify-items: center;
     background-image: url(../images/Background.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 main{
@@ -81,15 +83,6 @@ main, footer{
     width: 100%;
 }
 
-img {
-    max-width: 100%;
-    width: 90%;
-    object-fit: cover;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 h1, h2, #profile-link {
     color: #04E7D8;
 }
@@ -98,6 +91,15 @@ h1, h2, #profile-link {
     height: 250px;
     width: 100%;
     border: 2px solid black;
+    justify-content: center;
+    justify-items: center;
+}
+
+.project-tile img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 
 #navbar {
@@ -120,7 +122,7 @@ h1, h2, #profile-link {
         justify-content: space-between;
     }
     #project-tiles a{
-        flex-basis: 30%;
+        flex-basis: 45%;
     }
     section, main{
         max-width: 1100px;
